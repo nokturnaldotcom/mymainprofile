@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+}
+thead{
+    background-color: blue;
+
+}
+.nav a{
+    color:limegreen ;
+    margin: 0 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+tbody{
+    background-color:red;
+}

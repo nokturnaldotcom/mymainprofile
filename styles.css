@@ -1,0 +1,78 @@
+body {
+    background-image: url('BP4.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    height: 100vh; /* Ensures it covers the full viewport */
+    margin: 0; /* Removes default margin */
+}
+
+.hero {
+    background: url('hero-bg.jpg') center / cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 150px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 45px; /* Adjust size as needed */
+    height: 32px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background: transparent;
+    padding: 10px;
+    display: flex; 
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Aligns items vertically */
+}
+
+
+nav a {
+    color: white ;
+    margin: 0 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+
+
+h1 {
+    color: blue;
+}
+
+p {
+    line-height: 1.6;
+    color: white;
+}
